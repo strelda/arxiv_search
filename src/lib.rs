@@ -53,7 +53,7 @@ impl Article {
   <p style='color:gray;font-size:30px;'>Published: {published}</p>
     <p style='font-size:30px;'>{summary}</p>
     <ul>
-        <li><a href='{url}'>Link to article</a></li>
+        <li><a href='{url}'>Link to the article</a></li>
     </ul>
 </body>
 </html>

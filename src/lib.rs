@@ -48,10 +48,10 @@ impl Article {
   <title>Articles from Arxiv</title>
 </head>
 <body>
-  <h1>{title}</h1>
-  <p><i><small>By {authors}</small></i></p>
-  <p>Published: {published}</p>
-    <p>{summary}</p>
+  <h1 style='font-size:40px;'>{title}</h1>
+  <p style='color:gray;font-size:30px;'><i>By {authors}</i></p>
+  <p style='color:gray;font-size:30px;'>Published: {published}</p>
+    <p style='font-size:30px;'>{summary}</p>
     <ul>
         <li><a href='{url}'>Link to article</a></li>
     </ul>

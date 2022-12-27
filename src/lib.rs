@@ -81,7 +81,7 @@ pub fn arxiv_scrapper(search_query: &str, since_date: &str) -> Vec<Article> {
     params.insert("search_query", search_query);
     params.insert("sortBy", "submittedDate");
     params.insert("start", "0");
-    params.insert("max_results", "10");
+    params.insert("max_results", "70");
 
     // Build the URL for the request
     let url = reqwest::Url::parse_with_params(base_url, params).unwrap();
